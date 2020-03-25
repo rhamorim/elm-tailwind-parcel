@@ -6,8 +6,8 @@ const plugins =
        'autoprefixer',
         purgecss({
           content: [
-            './**.html',
-            './src/**/*.elm'
+            './html/**.html',
+            './elm/**/*.elm'
           ],
           css: ['**/*.css'],
           defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
