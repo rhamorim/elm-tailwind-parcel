@@ -1,15 +1,28 @@
 {
+  "name": "elm-tailwind-parcel",
+  "version": "1.0.0",
+  "description": "Base project for development using Elm for logic, TailwindCSS for styling, and Parcel as bundler.",
+  "main": " ",
   "scripts": {
     "start": "parcel html/index.html --port 3000",
-    "build": "rm -rf dist && parcel build html/index.html --no-source-maps"
+    "build": "npx parcel build html/index.html --no-source-maps"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamorim/elm-tailwind-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhamorim/elm-tailwind-parcel/issues"
+  },
+  "homepage": "https://github.com/rhamorim/elm-tailwind-parcel#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
-    "autoprefixer": "^9.7.5",
-    "elm-hot": "^1.1.4",
-    "node-elm-compiler": "^5.0.4",
+    "autoprefixer": "^9.8.6",
+    "elm-hot": "^1.1.5",
+    "node-elm-compiler": "^5.0.5",
     "parcel-bundler": "^1.12.4",
-    "postcss-modules": "^1.5.0",
-    "tailwindcss": "^1.2.0"
+    "postcss": "^7.0.35",
+    "tailwindcss": "^2.0.1-compat"
   }
 }
